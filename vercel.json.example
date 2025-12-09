@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
+
+En la configuración de Vercel se pueden cargar las variables que tenemos en el env.
+Esto se hace en las variables de entorno.

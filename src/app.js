@@ -22,6 +22,10 @@ app.use((req,res) => {
   res.status(404).json({error:'Ruta no encontrada.'})
 })
 
+/*
 const PORT = process.env.PORT || 3001
 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`))
+*/
+
+export default app
